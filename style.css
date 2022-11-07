@@ -5,22 +5,26 @@ body {
     margin: 0;
 }
 
+.header-block {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
 header {
     color: #F9fAF8;
     font-size: 24px;
     flex: 1;
 }
 
-.header-block {
-    background-color: #1F2937;
-    display: flex;
-    justify-content: space-between;
-    padding-left: 40px;
-}
+
 .header-link a {
     font-size: 18px;
     color: #E5E7EB;
     flex: 1;
+    text-decoration: none;
+    padding: 0 0px;
 }
 .header-link {
     display: flex;
@@ -34,21 +38,35 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 40px;
+    /* padding-left: 40px; */
+    padding: 90px 100px;
 }
 
 .block1 div {
-    flex: 1;
+    flex: 1 1 100px;
 }
 
 .block1 .main {
     font-size: 48px;
     font-weight: bold;
     color: #F9FAF8;
+    margin-bottom: 0;
 }
 .block1 .secondary {
     font-size: 18px;
     color: #e5e7eb;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.block1 button {
+    background-color: #3882f6;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    width: 110px;
+    height: 35px;
 }
 
 .block2 {
@@ -66,6 +84,12 @@ header {
 .display {
     display: flex;
     justify-content: space-between;
+}
+
+.display div {
+    border: 2px;
+    border-color: #3882f6;
+    max-width: 160px;
 }
 
 .display p {
@@ -101,10 +125,25 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 40px 40px;
+    margin: 40px 100px;
     border-radius: 10px;
     padding: 20px 60px;
 }
+
+.block4 button {
+    background-color: #3882f6;
+    border-radius: 10px;
+    border: 2px solid white;
+    color: white;
+    width: 160px;
+    height: 35px;
+}
+
 .footer {
     background-color: #1F2937;
+    align-items: center;
+}
+.footer p {
+    background-color: #1F2937;
+    align-items: center;
 }
